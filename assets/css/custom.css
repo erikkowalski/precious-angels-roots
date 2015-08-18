@@ -1,0 +1,1056 @@
+body {
+    padding-top: 70px;
+}
+
+.home {
+        background-image: url(../img/bg/p1.png);
+    padding-top: 0;
+
+}
+
+/* Images */
+.entry-content img,
+.comment-content img,
+.widget img {
+max-width: 100%;
+}
+img[class*="align"],
+img[class*="wp-image-"] {
+height: auto;
+}
+img.size-full {
+max-width: 100%;
+width: auto;
+}
+
+img.wp-post-image {
+	max-width: 100%;
+	height:auto;
+}
+
+
+
+
+
+
+.html5-video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.html5-video-container iframe,
+.html5-video-container object,
+.html5-video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.entry-content img,
+.entry-content iframe,
+.entry-content object,
+.entry-content embed {
+        max-width: 100%;
+}
+
+.html5-video-container {
+}
+
+
+/* -- Navbar styles ---*/
+.navbar {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    background: #c6e8ff;
+
+}
+
+.navbar-default {
+    background: #91d3ff;
+}
+
+.navbar .grad {
+    background-image: url(../img/nav-grad.png);
+    background-repeat: repeat-x;
+}
+
+.admin-bar .navbar {
+}
+
+.main {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #5d5d5d;
+}
+
+.navbar-default .navbar-brand {
+    font-family: 'Merriweather', serif;
+    padding: 5px 30px 0 30px;
+    }
+
+.navbar-defualt a{
+    font-family: 'Merriweather', serif;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-family: 'Merriweather', serif;
+}
+
+.navbar-default .navbar-nav>.active>a{
+    background: none;
+    color: #3253b1;
+
+
+}
+.navbar-default .navbar-nav>li>a:hover {
+     color: #fff;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+    background: none;
+     color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a:focus {
+    background: rgba(198, 232, 255, 0.65);
+
+}
+
+.navbar-default .navbar-nav>.open>a {
+    background: rgba(198, 232, 255, 0.65);
+
+
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
+    background: rgba(198, 232, 255, 0.65);
+    color: #505050;
+}
+
+.navbar-default .navbar-toggle  {
+    background: white;
+    border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+background-color:#005ad4;
+}
+/* -- General Typographic styles ---*/
+
+h2,h3 {
+   font-family: 'Merriweather', serif;
+}
+h3 {
+    line-height: 1.3em;
+}
+
+
+.featured{
+    padding-top: 15px;
+}
+
+.carousel {
+    max-width: 1130px;
+    margin: 0 auto;
+}
+
+
+/*
+
+.carousel-caption {
+left: 10%;
+line-height: 20px;
+right: 10%;
+z-index: 10;
+}
+
+
+
+*/
+
+.jumbotron .three .carousel-caption  h1,
+.jumbotron .three .carousel-caption p {
+    text-align: right;
+    margin-right: 0;
+    float: right;
+}
+
+.jumbotron {
+    background-image: url(../img/bg.jpg);
+    max-width: 1600px;
+    margin: 0 auto;
+
+    margin-top: 10px;
+}
+
+.statement {
+    background: white;
+    padding: 0 4em;
+}
+
+.statement p {
+    max-width: 800px;
+}
+
+.jumbotron h1 {
+        font-family: 'Merriweather', serif;
+    font-size: 2em;
+}
+
+.featured {
+    background: white;
+    margin-top: 20px;
+}
+
+.featured h2 {
+   font-family: 'Merriweather', serif;
+}
+
+.page-header h1 {
+    font-family: 'Merriweather', serif;
+    letter-spacing: 0.08em;
+    font-weight: 100;
+}
+
+
+.news-content {
+    padding: 1em;
+}
+
+.news-content time {
+    font-weight: 800;
+    padding-bottom: 1em;
+    display: inline-block;
+}
+
+.entry-summary {
+    width: 75%;
+}
+
+.news {
+    margin-top: 2em;
+    background: white;
+    padding-bottom: 2em;
+}
+
+.news img {
+    padding-top: 1em;
+
+}
+
+.circle {
+    margin: 0 auto;
+}
+
+.news {
+    padding-top: 4em;
+    border-top: 10px solid white;
+    background-repeat: no-repeat;
+}
+
+.news-feed {
+    background: white;
+    border: 5px solid white;
+}
+
+.facilities-headline{
+    text-align: center;
+    margin:1em;
+    font-size: 5em;
+    font-weight: 100;
+}
+
+.home .number {
+    background: white;
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-size: 1.6em;
+    padding: 0.5em;
+    color: #5f5f5f;
+    margin-bottom: 0;
+    border-top: 5px solid #d4d4d4;
+    border-bottom: 5px solid #d4d4d4;
+    font-family: 'Open Sans';
+    font-weight: 100;
+}
+
+/*----------- Post entery title & meta -----------*/
+
+
+.home .entry-title {
+    font-family: 'Merriweather', serif;
+	font-weight:100;
+    padding:0.2em 0;
+    font-size: 1.5em;
+    color: black;
+    border-bottom: 1px solid #dedede;
+}
+
+.single-post .post .entry-title {
+    font-family: 'Merriweather', serif;
+    color: #333;
+    padding-left: 0;
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid #7c7c7c;
+    margin: 0.5em 0 0.2em 0;
+}
+
+.single-post .post .author, .single-post .post .published {
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+    font-size: 1.2em;
+    padding-bottom: 1em;
+    display: inline-block;
+}
+
+.entry-title a {
+	color:#000;
+}
+
+.post .entry-content img{
+    padding-bottom: 10px;
+}
+
+
+.entry-summary {
+margin-top: 5px;
+}
+
+.entry-content P {
+    font-size: 1.1em;
+    margin: 2em 0em;
+}
+
+
+/*----------- Side Bar Styles -----------*/
+
+.sidebar {
+    margin-top: 7em;
+}
+
+.sidebar h3 {
+	font-size:1.5em;
+	padding-bottom:0.5em;
+	border-bottom:1px solid #c4c4c4;
+    font-weight: 100;
+    color: #464646;
+    font-family: 'Merriweather', serif;
+}
+
+.sidebar ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+
+}
+
+.sidebar a {
+    color: #838383;
+}
+
+.sidebar a:hover {
+    color: #1f6ed9;
+}
+
+.widget a {
+    font-size: 0.9em;
+}
+
+/*--------- Contact form -----------*/
+
+.radio {
+    padding-left: 1.8em;
+}
+
+.contact form div:nth-child(6) {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 20px;
+    margin-top: 10px;
+    max-width: 600px;
+}
+
+ input {
+
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+#contact-form {
+    margin-top: 4em;
+}
+
+.contact h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 4em;
+    font-weight: 100;
+}
+
+.contact h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+.page-template-template-contact-php {
+      background: ;
+    background-repeat: no-repeat;
+    background-image: url(../img/law-books.jpg);
+    background-size: contain;
+
+}
+
+.contact form label {
+    letter-spacing: 0.02em;
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: 0.4em;
+}
+
+.contact form label span {
+    font-weight: 100;
+}
+
+.radio {
+    padding-left: 1.8em;
+}
+
+.contact form div:nth-child(6) {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 20px;
+    margin-top: 10px;
+    max-width: 600px;
+}
+
+.contact .content-info {
+
+    border-top: 5px solid black;
+}
+
+
+ input {
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.contact textarea {
+     color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    width: 100%;
+}
+
+#contact-form  .radio{
+    font-weight: 100;
+    text-transform: none;
+}
+
+.contact div {
+    margin-bottom: 2em;
+}
+
+.contact-form .clear-form {
+    margin: 0;
+}
+
+.contact-submit input{
+    background-color: #3253b1;
+    border-color: #2f56c6;
+    font-family: lato,sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2em;
+    margin-bottom: 2em;
+    letter-spacing: 0.2em;
+    padding: 10px 16px;
+    line-height: 1.33;
+    border-radius: 6px;
+    width: 80%;
+}
+
+
+.contact-submit input:hover{
+    background: #14348e;
+}
+
+
+/*----------- footer -----------*/
+
+footer {
+    padding-bottom: 2em;
+    background: #f8f8f8;
+    border-top: 5px solid black;
+}
+
+footer p {
+	font-family:'Open Sans';
+}
+
+.content-info {
+	background:#f8f8f8;
+	margin-bottom:0;
+	margin-top:4em;
+	border-top:20px solid #cbcbcb;
+}
+
+.content-info h3 {
+	letter-spacing:0.1em;
+	font-weight:400;
+}
+
+
+
+.content-info, .content-info p{
+	font-weight:100;
+	font-size:1.1em;
+}
+
+
+.content-info h3 {
+	font-size:1em;
+	text-transform:uppercase;
+	padding-bottom:0.5em;
+	border-bottom:1px solid #c4c4c4;
+}
+
+.content-info ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+
+footer .container > p {
+	letter-spacing:0.08em;
+	text-align:center;
+}
+
+.footer-bottom {
+}
+
+.copyright {
+    text-align: center;
+}
+
+.blog-name {
+    letter-spacing:0.02em;
+    padding-right: 10px;
+
+}
+
+.footer-tagline {
+    padding-right: 10px;
+}
+
+.author-copyright {
+    font-size: 0.85em;
+    letter-spacing: 0.05em;
+}
+
+
+/* add boostrap grid col-md-3 styling to footer widgets */
+
+.content-info .widget {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+@media (min-width: 768px) {
+.content-info .widget {
+    float: left;
+    width: 50%;
+  }
+
+  }
+
+@media (min-width: 992px) {
+.content-info .widget {
+		float: left;
+		width: 25%;
+	}
+} /* close media querie */
+
+/*---------------------------------
+MEDIA QUERIES FOR RESPONSIVE DESIGN
+------------------*/
+
+ /*
+					 ##
+			  ###    ##   ###
+				###  ## ####
+				 #########
+			 ##################
+			 ##################
+				  #######
+				 ##  ## ###
+			   ###   ##  ####
+					 ##
+*/
+
+/* -------- iPhone ---------- */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+	.home {
+            margin-top: 50px;
+
+}
+
+.statement{
+    padding: 10px;
+    }
+
+.jumbotron .carousel-caption h1{
+    font-size: 2em;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+ .jumbotron .pre-k h1{
+     font-size: 2.5em;
+    margin-bottom: 0.2em;
+}
+
+.jumbotron .toddlers h1{
+        margin-bottom: 0.1em;
+
+}
+
+.carousel-caption p {
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+    font-weight: 600;
+}
+
+    .facilities-headline {
+        font-size: 2em;
+    }
+
+    .news {
+        padding-top: 15px;
+    }
+
+    .facilities .three {
+    }
+
+    }
+
+}/*    <--- Close iPhone --- */
+
+
+
+/* --- iPad --- */
+
+@media only screen
+and (min-device-width : 768px )
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+.navbar-default .navbar-nav>.active>a{
+    border-bottom: 5px solid #3253b1;
+
+}
+
+}/* <--- Close iPad --- */
+
+
+@media (max-width: 768px) {
+    .contact {
+
+        padding: 0 1em;
+    }
+
+    .home .number {
+    margin-top: 50px;
+
+    }
+
+}
+
+
+@media (min-width: 768px) {
+
+    .jumbotron {
+            padding-top: 65px;
+    }
+
+    .navbar-default .navbar-nav>.active>a{
+    border-bottom: 5px solid #3253b1;
+
+}
+
+}
+
+
+/* -----------------///// @screen-sm-min /////-----------> */
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .navbar .grad {
+    background-image: url(../img/nav-grad-tall.png);
+    background-repeat: repeat-x;
+}
+
+    #menu-primary-navigation {
+
+        border-top: 1px solid white;
+    }
+
+
+.carousel-caption p {
+    font-size: 1.2em;
+    margin-bottom: 0.8em;
+    font-weight: 600;
+}
+
+    .jumbotron {
+    margin-top: 90px;
+}
+
+.page-template, .page-template-default {
+    padding-top: 120px;
+}
+
+    .header-number {
+        color: #5d5d5d;
+        padding: 0.5em 0 0 0;
+        letter-spacing: 0.05em;
+        font-size: 2em;
+        text-transform: uppercase;
+        font-weight: 100;
+        text-align: center;
+
+    }
+
+
+.jumbotron .carousel-caption h1{
+    text-align: left;
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.carousel-caption p {
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 1.3em;
+    max-width: 600px;
+}
+
+        .jumbotron .carousel-caption h1{
+    font-size: 2em;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.jumbotron .crawl p {
+    font-size: 1.4em;
+    max-width: 370px;
+}
+
+.jumbotron .crawl .btn {
+    margin-bottom:5.5em;
+}
+
+    .jumbotron .toddlers {
+    float: right;
+
+    }
+
+.jumbotron  .toddlers h1 {
+    text-align: right;
+    font-size: 3em;
+}
+
+ .jumbotron .toddlers p {
+    text-align: right;
+     margin-right: 0;
+    font-size: 1.4em;
+}
+
+ .jumbotron .pre-k h1{
+     font-size: 2.5em;
+    margin-bottom: 0.2em;
+}
+
+.jumbotron .toddlers h1{
+        margin-bottom: 0.1em;
+
+}
+
+.jumbotron .kinder {
+    float: right;
+}
+
+.jumbotron .kinder h1, .jumbotron .kinder p {
+    text-align: right;
+}
+
+
+.jumbotron .kinder h1 {
+    margin-bottom: 0.2em;
+    font-size:2.2em;
+}
+
+.post {
+    margin-top: 100px;
+}
+
+
+} /* <------ close 768px breakpoint///// @screen-sm-min /////-------*/
+
+
+ /*
+					 ##
+			  ###    ##   ###
+				###  ## ####
+				 #########
+			 ##################
+			 ##################
+				  #######
+				 ##  ## ###
+			   ###   ##  ####
+					 ##
+*/
+
+@media (min-width: 785px) {
+    .admin-bar .navbar {
+    margin-top: 30px;
+}
+
+}
+
+/* -----------------///// @screen-lg-min /////-----------> */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .jumbotron .carousel-caption h1{
+    text-align: left;
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.carousel-caption p {
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 1.3em;
+    max-width: 600px;
+}
+
+       .contact {
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+    .jumbotron .crawl h1 {
+    font-size: 3.5em;
+    }
+
+.jumbotron .crawl p {
+    font-size: 1.6em;
+    max-width: 370px;
+}
+
+.jumbotron .crawl .btn {
+    margin-bottom:8em;
+}
+
+    .jumbotron .toddlers .carousel-caption {
+    float: right;
+
+    }
+
+.jumbotron  .toddlers h1 {
+    text-align: right;
+    font-size: 4em;
+    margin-bottom: 0.1em;
+}
+
+ .jumbotron .toddlers p {
+    text-align: right;
+     margin-right: 0;
+     padding-right: 0;
+    font-size: 1.6em;
+}
+
+ .jumbotron .pre-k h1{
+     font-size: 4em;
+    margin-bottom: 0.2em;
+}
+
+ .jumbotron .pre-k p {
+    font-size: 1.6em;
+ }
+
+
+.jumbotron .kinder {
+    float: right;
+}
+
+.jumbotron .kinder h1, .jumbotron .kinder p {
+    text-align: right;
+}
+
+
+.jumbotron .kinder h1 {
+    margin-bottom: 0.2em;
+    font-size:4em;
+
+}
+
+  .jumbotron .kinder p {
+    font-size: 1.6em;
+  }
+
+
+}
+
+
+
+/* -----------------///// @screen-lg-min /////-----------> */
+
+@media (min-width: 1200px) {
+
+
+    .jumbotron .carousel-caption h1{
+    text-align: left;
+    font-size:5em;
+    font-weight: 100;
+}
+
+.carousel-caption p {
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 1.3em;
+    max-width: 600px;
+}
+       .contact {
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+       .jumbotron .carousel-caption h1{
+    text-align: left;
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.carousel-caption p {
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 1.3em;
+    max-width: 600px;
+}
+
+       .contact {
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+    .jumbotron .crawl h1 {
+    font-size: 3.5em;
+    }
+
+.jumbotron .crawl p {
+    font-size: 1.6em;
+    max-width: 370px;
+}
+
+.jumbotron .crawl .btn {
+    margin-bottom:8em;
+}
+
+    .jumbotron .toddlers {
+    float: right;
+
+    }
+
+.jumbotron  .toddlers h1 {
+    text-align: right;
+    font-size: 4em;
+    margin-bottom: 0.1em;
+   margin-right: 20px;
+}
+
+ .jumbotron .toddlers .carousel-caption p {
+    text-align: right;
+     margin-right: 0;
+    font-size: 1.6em;
+}
+
+ .jumbotron .pre-k h1{
+     font-size: 4em;
+    margin-bottom: 0.2em;
+}
+
+ .jumbotron .pre-k p {
+    font-size: 1.6em;
+ }
+
+
+.jumbotron .kinder {
+    float: right;
+}
+
+.jumbotron .kinder h1, .jumbotron .kinder p {
+    text-align: right;
+}
+
+
+.jumbotron .kinder h1 {
+    margin-bottom: 0.2em;
+    font-size:4em;
+    margin-right: 20px;
+}
+
+  .jumbotron .kinder p {
+    font-size: 1.6em;
+  }
+
+
+
+} /* <------ close 1200px breakpoint///// @screen-lg-min /////-------*/
